@@ -2,7 +2,7 @@ import java.util.*;
 
 public class WordFrequency {
 
-    //1
+//1
     public static void countWords(String input) {
 //2 
         String[] words = input.split(" ");
