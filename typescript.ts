@@ -1,7 +1,7 @@
 function wordFrequency(str: string): void {
 const exclude = ["the", "a", "an", "and", "or", "but"];
 const words = str.split(" ");
-const freqMap = {};
+ const freqMap: { [key: string]: number } = {};
  words.forEach((word) => {
     if (!exclude.includes(word)) {
       if (!freqMap[word]) {
