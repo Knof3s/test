@@ -15,4 +15,4 @@ sortedWords.forEach((word) => console.log(`${word}: ${freqMap[word]}`));
 }
 
 // Пример использования функции
-wordFrequency("The quick brown fox jumps over the lazy dog and the dog does not care.");
+wordFrequency(""the quick brown fox jumps over the lazy dog and the brown fox runs away"");
