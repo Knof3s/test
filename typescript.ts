@@ -5,7 +5,7 @@ const words = str.split(" ");
  words.forEach((word) => {
     if (!exclude.includes(word)) {
       if (!freqMap[word]) {
-        freqMap[word] = 0;
+        freqMap[word] = 1;
       }
       freqMap[word] += 1;
     }
